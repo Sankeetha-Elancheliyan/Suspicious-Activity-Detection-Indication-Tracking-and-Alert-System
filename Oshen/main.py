@@ -127,4 +127,5 @@ while True:
     cv2.imshow("Output2", img3)
     cv2.imshow("Output3", img4)
 
-    cv2.waitKey(1)
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
