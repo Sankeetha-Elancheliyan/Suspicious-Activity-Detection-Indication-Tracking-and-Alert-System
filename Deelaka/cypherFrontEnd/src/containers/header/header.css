@@ -1,0 +1,9 @@
+.screen{
+    height: 530px;
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: black;
+    
+}

@@ -1,0 +1,60 @@
+.cypher__footer  {
+    
+    margin-top: 4%;
+    color: #ffffff;
+    position: absolute;
+    
+}
+
+.cypher__footer_GOPlogo img {
+    width: 265px;
+    height: 45px;
+    margin-top: 3%;
+    margin-left: 26%;
+    
+}
+
+.cypher__footer_GOP {
+    font-family: var(--font-family);
+    font-weight:600;
+    font-size: 15px;
+    margin-left: 60%;
+    margin-top: -10%;
+
+    
+}
+
+.cypher__footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 250%;
+    margin-left: 200%;
+    font-size: 13px;
+    font-family: var(--font-family);
+}
+
+.cypher__footer-links div{
+    margin-top: -6rem;
+
+}
+
+.cypher__footer_followusicons img {
+    width: 200px;
+    margin-left: 440%;
+    
+    
+}
+
+.cypher__footer_followusicons {
+    margin-top: -15%;
+}
+
+.cypher__footer-logo img {
+    width: 100px;
+    height: 35px;
+    margin-left: 530%;
+    margin-top: -3%;
+}
