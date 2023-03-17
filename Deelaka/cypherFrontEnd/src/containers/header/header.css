@@ -7,3 +7,17 @@
     background: black;
     
 }
+
+.dropdown{
+    margin-left: 80%;
+    margin-top: 0.5rem;
+    width: 225px;
+    height: 20px;
+    font-family: var(--font-family);
+    font-weight:400;
+    font-size: 15px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    
+    
+}

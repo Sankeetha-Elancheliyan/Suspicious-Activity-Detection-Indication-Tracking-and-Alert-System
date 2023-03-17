@@ -4,9 +4,17 @@ import logo from './assets/logo.png';
 import profileLogo from './assets/profileLogo.png';
 import storeicon from './assets/storeicon.png';
 import { Navbar } from './components';
+import { useNavigate } from 'react-router-dom';
 
 
 const Profile = () => {
+  
+  const navigate = useNavigate();
+  function handleClick (){
+    navigate("/")
+  }
+
+
   return (
     
     <div className='profile'>
@@ -15,7 +23,7 @@ const Profile = () => {
           <div className='profile_logo'><img src= {profileLogo} alt='profileLogo' /></div>
           <h1 className='name'>Profile</h1>
           <div className='settings_btn'>SETTINGS</div> 
-          <div className='logout_btn'>LOGOUT</div> 
+          <div className='logout_btn' onClick={(e)=>handleClick()}>LOGOUT</div> 
           <div className='lockdown_btn'>LOCKDOWN</div> 
           <h1 className='profile_GOA'>Get our app</h1>
           <div className='profile_store'><img src= {storeicon} alt='' /></div>         
