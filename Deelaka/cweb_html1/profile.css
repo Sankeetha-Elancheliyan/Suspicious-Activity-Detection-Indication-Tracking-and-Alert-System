@@ -1,0 +1,391 @@
+.profile-container {
+  min-height: 100vh;
+}
+.profile-profile {
+  width: 100%;
+  height: 725px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(2, 12, 37, 1);
+}
+.profile-ellipse18 {
+  right: -136px;
+  width: 486px;
+  bottom: -10px;
+  height: 632px;
+  position: absolute;
+  border-color: transparent;
+}
+.profile-ellipse21 {
+  top: -157px;
+  left: -91px;
+  width: 1016px;
+  height: 537px;
+  position: absolute;
+  border-color: transparent;
+}
+.profile-ellipse23 {
+  top: 152px;
+  left: 540px;
+  width: 380px;
+  height: 112px;
+  position: absolute;
+  border-color: transparent;
+}
+.profile-ellipse22 {
+  top: -187px;
+  left: 1318px;
+  width: 209px;
+  height: 249px;
+  position: absolute;
+  border-color: transparent;
+}
+.profile-ellipse20 {
+  top: 877px;
+  left: 540px;
+  width: 418px;
+  height: 134px;
+  position: absolute;
+  border-color: transparent;
+}
+.profile-ellipse19 {
+  left: -3px;
+  width: 981px;
+  bottom: -11px;
+  height: 402px;
+  position: absolute;
+  border-color: transparent;
+}
+.profile-group46 {
+  left: 620px;
+  width: 338.93719482421875px;
+  bottom: 75px;
+  height: 100.44597625732422px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.profile-text {
+  left: 117.4637680053711px;
+  color: rgba(255, 255, 255, 1);
+  width: 104px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 27.5px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.profile-union {
+  top: 47.60940933227539px;
+  left: 0px;
+  width: 339px;
+  height: 53px;
+  position: absolute;
+}
+.profile-group49 {
+  top: 13px;
+  left: 610px;
+  width: 362px;
+  height: 558.8666381835938px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.profile-group51 {
+  top: 270px;
+  left: 0px;
+  width: 362px;
+  height: 142.8666534423828px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.profile-group47 {
+  top: 158.566650390625px;
+  left: 0px;
+  width: 362px;
+  height: 54.29999923706055px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(145, 0, 0, 1);
+  cursor: pointer;
+}
+.profile-text02 {
+  top: 15.68668270111084px;
+  left: 100.15333557128906px;
+  color: rgba(255, 255, 255, 1);
+  width: 162px;
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Lexend Deca;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.profile-group48 {
+  top: 76.17333984375px;
+  left: 0px;
+  width: 362px;
+  height: 54.29999923706055px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+.profile-text04 {
+  top: 16.686660766601562px;
+  left: 125.49333190917969px;
+  color: rgba(255, 255, 255, 1);
+  width: 112px;
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Lexend Deca;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.profile-group491 {
+  top: 8px;
+  left: 0px;
+  width: 362px;
+  height: 54.29999923706055px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+  cursor: pointer;
+}
+.profile-group50 {
+  top: 0px;
+  left: 0px;
+  width: 362px;
+  height: 54.29999923706055px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(0, 0, 0, 1);
+}
+.profile-text06 {
+  top: 15px;
+  left: 127px;
+  color: rgba(255, 255, 255, 1);
+  width: 112px;
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Lexend Deca;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.profile-text08 {
+  top: 209.3399658203125px;
+  left: 91.7066650390625px;
+  color: rgba(255, 255, 255, 1);
+  width: 188px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Lexend Deca;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.profile-group35 {
+  top: 0px;
+  left: 89px;
+  width: 194.7371063232422px;
+  height: 199.10000610351562px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.profile-ellipse10 {
+  top: 6.601241588592529px;
+  left: -0.000009765624781721272px;
+  width: 195px;
+  height: 192px;
+  position: absolute;
+  border-color: transparent;
+}
+.profile-maskgroup {
+  top: 0px;
+  left: 6.6013054847717285px;
+  width: 183.41517639160156px;
+  height: 183.41517639160156px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.profile-ellipse7 {
+  top: 0px;
+  left: 0px;
+  width: 183px;
+  height: 183px;
+  position: absolute;
+  border-color: transparent;
+}
+.profile-ellipse8 {
+  top: 39.607540130615234px;
+  left: 56.18864440917969px;
+  width: 67px;
+  height: 67px;
+  position: absolute;
+  border-color: transparent;
+}
+.profile-ellipse9 {
+  top: 111.97301483154297px;
+  left: 39.607582092285156px;
+  width: 104px;
+  height: 104px;
+  position: absolute;
+  border-color: transparent;
+}
+.profile-text10 {
+  top: 15px;
+  left: 39px;
+  color: rgba(255, 255, 255, 1);
+  width: 175px;
+  height: auto;
+  position: absolute;
+  font-size: 50px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 800;
+  line-height: 27.5px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
