@@ -27,6 +27,8 @@
 
       }
     </style>
+
+
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
@@ -82,13 +84,13 @@
           />
           <div class="loginscreen-form">
             <div class="loginscreen-loginbtn">
-              <span class="loginscreen-text"><span>login</span></span>
+              <input class="loginscreen-text" id="submitData" type="submit" value="Login"></input>
             </div>
             <div class="loginscreen-password">
-              <input class="loginscreen-text02" placeholder="password" type="password"></input>
+              <input class="loginscreen-text02" placeholder="Password" id="password" name="password" type="password"></input>
             </div>
             <div class="loginscreen-username">
-              <input class="loginscreen-text04" placeholder="email" type="email"></input>
+              <input class="loginscreen-text04" placeholder="Email" id="email" name="email"></input>
             </div>
             <span class="loginscreen-text06"><span>Sign in</span></span>
           </div>
@@ -260,4 +262,56 @@
       </div>
     </div>
   </body>
+
+
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
+  import { getDatabase } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-database.js";
+  import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-auth.js";
+
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyB74LrHBoD-js9XtqJorjSfn1WaMhNBdnU",
+    authDomain: "cweb-auth.firebaseapp.com",
+    databaseURL: "https://cweb-auth-default-rtdb.firebaseio.com",
+    projectId: "cweb-auth",
+    storageBucket: "cweb-auth.appspot.com",
+    messagingSenderId: "524309298927",
+    appId: "1:524309298927:web:9423b376caea88f71c251a"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const database = getDatabase(app);
+  const auth = getAuth();
+  
+  submitData.addEventListener('click',(e) => {
+
+  var email = document.getElementById('email').value;
+  var password = document.getElementById('password').value;
+
+  signInWithEmailAndPassword(auth, email, password)
+       .then((userCredential) => {
+          // Signed in 
+          const user = userCredential.user;
+          console.log(user);
+          window.location.href = "main.html";
+        })
+       .catch((error) => {
+          const errorCode = error.code;
+          const errorMessage = error.message;
+          alert('Incorrect Credentials');
+          // ..
+    });
+
+  })
+  
+
+</script>
 </html>
+

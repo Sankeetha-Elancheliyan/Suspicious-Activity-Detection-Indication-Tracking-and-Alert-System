@@ -102,11 +102,13 @@
   flex-direction: row;
   justify-content: flex-start;
   background-color: rgba(0, 0, 0, 1);
+  cursor: pointer;
 }
 .loginscreen-text {
   top: 13px;
   left: 120px;
   color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 1);
   height: auto;
   position: absolute;
   font-size: 22px;
@@ -564,4 +566,8 @@
   margin-right: 0;
   margin-bottom: 0;
   text-decoration: none;
+}
+
+.loginbutton{
+  cursor: pointer;
 }
