@@ -300,7 +300,7 @@
           // Signed in 
           const user = userCredential.user;
           console.log(user);
-          window.location.href = "main.html";
+          window.location.href = '{{  url_for("main")  }}';
         })
        .catch((error) => {
           const errorCode = error.code;
