@@ -1,0 +1,573 @@
+.loginscreen-container {
+    min-height: 100vh;
+    
+  }
+  .loginscreen-loginscreen {
+    width: 100%;
+    height: 725px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(2, 12, 37, 1);
+  }
+  .loginscreen-ellipse18 {
+    right: -10px;
+    width: 609px;
+    bottom: -25px;
+    height: 595px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .loginscreen-ellipse21 {
+    top: -50px;
+    left: -18px;
+    width: 391px;
+    height: 462px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .loginscreen-ellipse23 {
+    top: 30px;
+    left: 570px;
+    width: 380px;
+    height: 112px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .loginscreen-ellipse22 {
+    top: -187px;
+    left: 1318px;
+    width: 209px;
+    height: 249px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .loginscreen-ellipse20 {
+    top: 877px;
+    left: 540px;
+    width: 418px;
+    height: 134px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .loginscreen-ellipse19 {
+    left: 1px;
+    width: 634px;
+    bottom: 2px;
+    height: 615px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .loginscreen-form {
+    top: 158px;
+    left: 550px;
+    width: 440px;
+    height: 312px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .loginscreen-loginbtn {
+    top: 267px;
+    left: 68px;
+    width: 300px;
+    height: 45px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+  }
+  .loginscreen-text {
+    top: 13px;
+    left: 120px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 22px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-weight: 400;
+    line-height: 20px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .loginscreen-password {
+    top: 160px;
+    left: 0px;
+    width: 440px;
+    height: 0px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(34, 73, 87, 1);
+  }
+  .loginscreen-text02 {
+    top: 10px;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 0px 0px 0px 0px;
+    height: 45px;
+    width: 440px;
+    position: absolute;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-weight: 400;
+    line-height: 20px;
+    font-stretch: normal;
+    text-decoration: none;
+    background-color: rgba(34, 73, 87, 1);
+  }
+  .loginscreen-username {
+    top: 81px;
+    left: 0px;
+    width: 440px;
+    height: px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(34, 73, 87, 1);
+  }
+  .loginscreen-text04 {
+    top: 13.824023246765137px;
+    background-color: rgba(34, 73, 87, 1);
+    color: rgba(255, 255, 255, 1);
+    height: 45px;
+    width: 440px;
+    position: absolute;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-weight: 400;
+    line-height: 20px;
+    font-stretch: normal;
+    text-decoration: none;
+    
+  }
+  .loginscreen-text06 {
+    left: 159px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 36px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .loginscreen-group46 {
+    top: 565px;
+    left: 592px;
+    width: 342px;
+    height: 102px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .loginscreen-text08 {
+    left: 119px;
+    color: rgba(255, 255, 255, 1);
+    width: 104px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 27.5px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .loginscreen-group43 {
+    top: 45.900001525878906px;
+    left: 0px;
+    width: 342px;
+    height: 56.099998474121094px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .loginscreen-iconstore {
+    top: 0px;
+    left: 0px;
+    width: 159px;
+    height: 56.099998474121094px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .loginscreen-group {
+    top: 1.7094142436981201px;
+    left: 1.5362298488616943px;
+    width: 155.92755126953125px;
+    height: 52.83655548095703px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .loginscreen-vector {
+    top: 0px;
+    left: 0px;
+    width: 156px;
+    height: 53px;
+    position: absolute;
+  }
+  .loginscreen-vector01 {
+    top: 15.99113941192627px;
+    left: 11.918580055236816px;
+    width: 29px;
+    height: 26px;
+    position: absolute;
+  }
+  .loginscreen-vector02 {
+    top: 8.072647094726562px;
+    left: 25.729707717895508px;
+    width: 7px;
+    height: 8px;
+    position: absolute;
+  }
+  .loginscreen-vector03 {
+    top: 24.074201583862305px;
+    left: 47.41366195678711px;
+    width: 95px;
+    height: 22px;
+    position: absolute;
+  }
+  .loginscreen-vector04 {
+    top: 11.517919540405273px;
+    left: 48.55845260620117px;
+    width: 7px;
+    height: 9px;
+    position: absolute;
+  }
+  .loginscreen-vector05 {
+    top: 13.907992362976074px;
+    left: 56.1273078918457px;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+  }
+  .loginscreen-vector06 {
+    top: 13.767339706420898px;
+    left: 62.7357063293457px;
+    width: 5px;
+    height: 7px;
+    position: absolute;
+  }
+  .loginscreen-vector07 {
+    top: 11.05776309967041px;
+    left: 69.58423614501953px;
+    width: 2px;
+    height: 9px;
+    position: absolute;
+  }
+  .loginscreen-vector08 {
+    top: 11.313394546508789px;
+    left: 72.74303436279297px;
+    width: 2px;
+    height: 9px;
+    position: absolute;
+  }
+  .loginscreen-vector09 {
+    top: 11.05776309967041px;
+    left: 76.01566314697266px;
+    width: 6px;
+    height: 9px;
+    position: absolute;
+  }
+  .loginscreen-vector10 {
+    top: 11.05776309967041px;
+    left: 83.45794677734375px;
+    width: 2px;
+    height: 9px;
+    position: absolute;
+  }
+  .loginscreen-vector11 {
+    top: 13.767339706420898px;
+    left: 86.3134765625px;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+  }
+  .loginscreen-vector12 {
+    top: 13.767339706420898px;
+    left: 95.44884490966797px;
+    width: 6px;
+    height: 7px;
+    position: absolute;
+  }
+  .loginscreen-vector13 {
+    top: 13.767339706420898px;
+    left: 102.91661071777344px;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+  }
+  .loginscreen-vector14 {
+    top: 12.131446838378906px;
+    left: 112.19084167480469px;
+    width: 4px;
+    height: 8px;
+    position: absolute;
+  }
+  .loginscreen-vector15 {
+    top: 11.05776309967041px;
+    left: 117.24503326416016px;
+    width: 6px;
+    height: 9px;
+    position: absolute;
+  }
+  .loginscreen-vector16 {
+    top: 13.767339706420898px;
+    left: 124.08080291748047px;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+  }
+  .loginscreen-iconstore1 {
+    top: 0px;
+    left: 184px;
+    width: 158px;
+    height: 56.099998474121094px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .loginscreen-group1 {
+    top: 1.709425687789917px;
+    left: 1.5265564918518066px;
+    width: 154.9468536376953px;
+    height: 52.8365592956543px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .loginscreen-vector17 {
+    top: 0px;
+    left: 0px;
+    width: 155px;
+    height: 53px;
+    position: absolute;
+  }
+  .loginscreen-vector18 {
+    top: 24.59994125366211px;
+    left: 43.932090759277344px;
+    width: 101px;
+    height: 21px;
+    position: absolute;
+  }
+  .loginscreen-vector19 {
+    top: 12.420318603515625px;
+    left: 44.12154006958008px;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+  }
+  .loginscreen-vector20 {
+    top: 12.592656135559082px;
+    left: 53.06523132324219px;
+    width: 5px;
+    height: 8px;
+    position: absolute;
+  }
+  .loginscreen-vector21 {
+    top: 12.592656135559082px;
+    left: 58.67462158203125px;
+    width: 6px;
+    height: 8px;
+    position: absolute;
+  }
+  .loginscreen-vector22 {
+    top: 12.592656135559082px;
+    left: 67.68172454833984px;
+    width: 1px;
+    height: 8px;
+    position: absolute;
+  }
+  .loginscreen-vector23 {
+    top: 12.592656135559082px;
+    left: 70.12648010253906px;
+    width: 6px;
+    height: 8px;
+    position: absolute;
+  }
+  .loginscreen-vector24 {
+    top: 12.420318603515625px;
+    left: 78.55133056640625px;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+  }
+  .loginscreen-vector25 {
+    top: 12.592656135559082px;
+    left: 87.62206268310547px;
+    width: 6px;
+    height: 8px;
+    position: absolute;
+  }
+  .loginscreen-vector26 {
+    top: 10.902979850769043px;
+    left: 14.539201736450195px;
+    width: 19px;
+    height: 15px;
+    position: absolute;
+  }
+  .loginscreen-vector27 {
+    top: 11.013773918151855px;
+    left: 12.670536041259766px;
+    width: 16px;
+    height: 31px;
+    position: absolute;
+  }
+  .loginscreen-vector28 {
+    top: 27.561254501342773px;
+    left: 13.981683731079102px;
+    width: 19px;
+    height: 16px;
+    position: absolute;
+  }
+  .loginscreen-vector29 {
+    top: 22.431447982788086px;
+    left: 30.087329864501953px;
+    width: 11px;
+    height: 9px;
+    position: absolute;
+  }
+  .loginscreen-text10 {
+    top: 50px;
+    left: 650px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    margin: auto;
+    position: absolute;
+    font-size: 80px;
+    align-self: auto;
+    font-style: ExtraBold;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 800;
+    line-height: 27.5px;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  
+  .loginbutton{
+    cursor: pointer;
+  }
