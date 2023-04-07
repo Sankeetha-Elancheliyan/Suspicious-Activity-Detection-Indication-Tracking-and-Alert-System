@@ -209,7 +209,7 @@ def video_feed_2():
 # Main route that renders the HTML template
 @app.route('/')
 def index():
-    return render_template('main.html')
+    return render_template('loginscreen.html')
 
 @app.route('/profile')
 def profile():
@@ -218,6 +218,10 @@ def profile():
 @app.route('/login')
 def login():
     return render_template('loginscreen.html')
+
+@app.route('/main')
+def main():
+    return render_template('main.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
